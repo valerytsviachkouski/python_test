@@ -6,7 +6,12 @@ def quotient(n, m):
     return n / m
 
 
+def sum(n, m):
+    return n + m
+
+
 if __name__ == '__main__':
     print(multi(5, 6))
     print("Hello!!!")
     print(quotient(5, 6))
+    print(sum(1, 3))
